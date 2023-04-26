@@ -1,5 +1,6 @@
 package ie.tudublin;
 
+// this class for follow
 public class Follow {
 
     public int aCount;
@@ -16,7 +17,7 @@ public class Follow {
         }
 
         public String getString() {
-            
+
             return aCount + aString;
         }
 

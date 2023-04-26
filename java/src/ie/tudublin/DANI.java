@@ -21,7 +21,13 @@ public class DANI extends PApplet {
 
 	public void printMode() {
 
-		
+		// i: love(2) 
+		// love: star(1) is(1) tu(1) 
+		// star: trek(1)
+		// trek:
+		// is: love(1)
+		// tu: dublin(1)
+		// dublin:
 
 	}
 	
@@ -37,22 +43,23 @@ public class DANI extends PApplet {
 		}
 	}
 
-	// public void FindWord(str){
+	public void FindWord(){
 
 
 
-	// }
+	}
 
-	// public String findFollow(str){
+	public String findFollow(){
 
-	// 	return null;
-	// }
+		return null;
+	}
 
 	public void setup() {
 		colorMode(HSB);
  
 	}
 
+	//Add code to generate a new sonnet on keyPress
 	public void keyPressed() {
 		if(key == ' '){
 

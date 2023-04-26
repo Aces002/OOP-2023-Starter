@@ -2,6 +2,8 @@ package ie.tudublin;
 
 import java.util.ArrayList;
 
+
+// this class for word 
 public class Word {
 
     public String word;
