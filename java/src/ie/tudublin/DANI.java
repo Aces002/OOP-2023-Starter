@@ -30,15 +30,17 @@ public class DANI extends PApplet {
 		
 
 	}
+	
 
-	public void loadFile(){
-		loadStrings("filename.txt"); // Load a text file into a String array
-		split(line, ' '); // Split a string into an array of words
-		String w;
-		w.replaceAll("[^\\w\\s]",""); // Remove punction characters
-		String s;
-		s.toLowerCase(); // Convert a string to lower case 
-
+	public void loadFile(String small) {
+		String[] liness = loadStrings("small.txt");
+		for (String line : liness) {
+			String[] words = split(line, ' ');
+			for (String w : words) {
+				w.replaceAll("[^\\w\\s]", "");
+				w.toLowerCase();
+			}
+		}
 	}
 
 	// public void FindWord(str){
@@ -65,8 +67,6 @@ public class DANI extends PApplet {
 		}
 
 	}
-
-
 
 	float off = 0;
 
