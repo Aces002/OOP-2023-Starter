@@ -2,33 +2,33 @@ package ie.tudublin;
 
 public class Follow {
 
-		private int myNumber;
-		private String myString;
+		private int aCount;
+		private String aString;
 
-        public Follow(int number, String string) {
-        myNumber = number;
-        myString = string;
+        public Follow(int count, String string) {
+        aCount = count;
+        aString = string;
         }
 
-        public int getNumber() {
-            return myNumber;
+        public int getCount() {
+            return aCount;
         }
 
         public String getString() {
-            return myString;
+            return aString;
         }
 
-        public void setNumber(int number) {
-            myNumber = number;
+        public void setCount(int count) {
+            aCount = count;
         }
 
         public void setString(String string) {
-            myString = string;
+            aString = string;
         }
 
         public void printValues() {
-            System.out.println("Number: " + myNumber);
-            System.out.println("String: " + myString);
+            System.out.println("Number: " + aCount);
+            System.out.println("String: " + aString);
         }
 				
 	
